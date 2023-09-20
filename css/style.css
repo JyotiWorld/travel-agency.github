@@ -377,13 +377,14 @@
 }
 
 
-/*** Package ***/
+/*** Package ***/ 
 .package-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 }
 
 .package-item img {
     transition: .5s;
+    border-radius: 60px;
 }
 
 .package-item:hover img {
@@ -397,6 +398,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
 }
 /**** offer card ****/
 
